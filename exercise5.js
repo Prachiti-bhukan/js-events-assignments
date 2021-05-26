@@ -1,9 +1,12 @@
-window.addEventListener('load', () => {
-    const hexval= document.querySelector('#inputNum');
-    const changecol= document.querySelector('#colour');
-    hexval.addEventListener('input', event => {
-         
-        changecol.style.backgroundColor.value = hexval;
-        
-    });
-});
+ 
+ console.log("heloo");
+ window.addEventListener('load', () => 
+ {
+     console.log("heloo");
+     const hexval= document.querySelector("#bx");
+     const colournew= document.querySelector('#color');
+    hexval.addEventListener('input', (event) =>
+     {
+        colournew.style.backgroundColor= hexval.value;
+     });
+ });
